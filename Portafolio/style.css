@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    background: #081b29;
+    color: #ededed;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu a
+{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1s;
+}
+.menu a:hover,
+.menu a.activate{
+    color: #00abf0;
+}
+.inicio
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.inicio-contenido
+{
+    max-width: 600px;
+}
+.inicio-contenido h1
+{
+    font-size: 56px;
+    font-weight: 700;
+}
+.inicio-contenido h3
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.inicio-contenido p
+{
+    font-size: 16px;
+}
+.inicio-contenido .btn-box
+{
+    display: flex;
+    justify-content: space-between;
+    width: 354px;
+    height: 50px;
+}
+.btn-box a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
